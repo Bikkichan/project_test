@@ -25,16 +25,16 @@ project
 
 # Usage
 
-Create an environment from YAML file and activate environment 
+Create an environment using requirements file and activate environment 
 ```
 # create environment 
-conda env create --file envname.yml
+conda create --name <env_name> --file requirements.txt
 
 # activate environment
-conda activate envname
+conda activate <envname>
 ```
 
-Export an environment modules to a txt file that can be read on Windows, macOS, and Linux
+Export an environment modules to a txt file
 ```
 pip freeze > requirements.txt
 ```
