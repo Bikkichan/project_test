@@ -34,9 +34,9 @@ conda env create --file envname.yml
 conda activate envname
 ```
 
-Export an environment to a YAML file that can be read on Windows, macOS, and Linux
+Export an environment modules to a txt file that can be read on Windows, macOS, and Linux
 ```
-conda env export --name envname > envname.yml
+pip freeze > requirements.txt
 ```
 
 # Questions 
