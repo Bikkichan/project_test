@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ```
 project 
 |__ .gitignore          # gitignore file
-|__ envname.yml         # conda environment
+|__ requirements.txt         # conda environment
 | 
 |__ data/               # contains raw and cleaned data
 |   |__ raw.csv         # raw data

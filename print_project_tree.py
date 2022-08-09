@@ -1,5 +1,6 @@
 import os
 
+# https://stackoverflow.com/questions/9727673/list-directory-tree-structure-in-python
 def list_files(startpath):
      for root, dirs, files in os.walk(startpath):
          if '.git' in dirs:
